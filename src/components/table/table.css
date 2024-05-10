@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.button {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  height: 40px;
+}
+
+.button.selected {
+  background-color: #e0e0e0;
+}
+
+.table {
+  display: flex;
+  width: 800px;
+  height: 600px;
+  gap: 20px;
+}
+.table div {
+  flex: 1;
+  gap: 2px;
+  padding: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.texttable {
+  text-align: center;
+  font-size: 16px;
+}
